@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --clr-gray: #4B5D68;
+  --clr-dark-blue: #212353;
+  --clr-purple: #9C69E2;
+  --clr-pink: #F063B8;
+  --clr-pink-transparent: #F063B826;
+  --clr-bright-green: #68C9BA;
+  --clr-black: #000;
+  --clr-purple-transparent: rgba(156, 105, 226, 0.6);
+  --clr-white: #fff;
+  --clr-body: linear-gradient(180deg, #c0dffa 0%, #FFFFFF 19.4%);
+
+
+  --clr-pink-rgba: rgba(240, 99, 184, 0.4);
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--clr-body);
+}
+
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: auto;
+}
+
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
